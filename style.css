@@ -202,3 +202,34 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
+
+
+/* Mejora visual: efectos en tarjetas y botones */
+
+.visual-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visual-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.15);
+}
+
+.feature-box {
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.feature-box:hover {
+    border-color: #0284c7;
+    transform: translateY(-3px);
+}
+
+.btn-primary,
+.btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn:hover {
+    transform: scale(1.03);
+}
